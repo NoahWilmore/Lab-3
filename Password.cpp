@@ -1,12 +1,24 @@
 #include "Password.h"
 using CSC2110::ListArrayIterator;
-using namespace CSC2110;
+
 #include <iostream>
 using namespace std;
+using namespace CSC2110;
 
+Password::Password()
+{
+	//write code
+}
 
+Password::~Password()
+{
+	//write code
+}
 
-
+void Password::addWord(String* word)
+{
+	//write code
+}
 
 
 

@@ -22,7 +22,7 @@ class Password
    public:
 	  Password();	//constructor
 	  virtual ~Password();	//destructor
-	  void addWord(String*	word);	//add a	word to	the	list of	possible passwords
+	  void addWord(String* word);	//add a	word to	the	list of	possible passwords
 	  void guess(int try_password, int num_matches);	//index	of guessed word	in the list	of all words (1-based),	number of matches reported by fallout 3, update	viable passwords list
 	  int getNumberOfPasswordsLeft();	//returns the number of	possible passwords remaining
 	  void displayViableWords();	//display the current list of possible passwords
