@@ -27,7 +27,7 @@ class Password
 	  int getNumberOfPasswordsLeft();	//returns the number of	possible passwords remaining
 	  void displayViableWords();	//display the current list of possible passwords
 	  int bestGuess();	//the best word	in the original	list to	guess next
-	  String* getOriginalWord(int index)	//get a	word from the original list	of all passwords, 1-based
+	  String* getOriginalWord(int index);	//get a	word from the original list	of all passwords, 1-based
    
 };
 }

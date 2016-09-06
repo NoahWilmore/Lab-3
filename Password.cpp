@@ -20,12 +20,25 @@ void Password::addWord(String* word)
 	//write code
 }
 
+void Password::guess(int try_password, int num_matches)
+{
+	//write code
+}
 
+int Password::getNumberOfPasswordsLeft()
+{
+	//write code
+}
 
+void Password::displayViableWords()
+{
+	//write code
+}
 
-
-
-
+String* Password::getOriginalWord(int index)
+{
+	//write code
+}
 
 int Password::bestGuess()
 {
