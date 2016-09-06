@@ -1,8 +1,14 @@
 #if !defined PASSWORD_H
 #define PASSWORD_H
 
-//complete the includes
-//help
+#include "Song.h"
+#include "Text.h"
+using CSC2110::String;
+#include "ListArray.h"
+using CSC2110::ListArray;
+
+namespace CSC2110
+{
 class Password
 {
    private:
@@ -24,5 +30,6 @@ class Password
 	  String* getOriginalWord(int index)	//get a	word from the original list	of all passwords, 1-based
    
 };
+}
 
 #endif
