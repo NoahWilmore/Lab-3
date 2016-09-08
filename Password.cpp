@@ -23,7 +23,11 @@ void Password::addWord(String* word)
 
 void Password::guess(int try_password, int num_matches)
 {
-	//write code
+	/*look up the guessed word
+	get and try password (note it must be written as try_password - 1)
+	for each word in viable_words, count the number of characters in common with guessed word
+	if the number of matches that we just counted equals the number of passes that was just passed to us, we're done
+	*/
 }
 
 int Password::getNumberOfPasswordsLeft()
