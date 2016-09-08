@@ -3,7 +3,7 @@ using CSC2110::ListArrayIterator;
 
 #include <iostream>
 using namespace std;
-using namespace CSC2110;
+using namespace CSC2110::Password;
 
 Password::Password()
 {
