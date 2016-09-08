@@ -1,5 +1,5 @@
 #include "Password.h"
-//fill in includes, don't forget namespaces
+using namespace CSC2110::Password;
 
 #include <iostream>
 using namespace std;
