@@ -18,7 +18,7 @@ Password::~Password()
 
 void Password::addWord(String* word)
 {
-	all_words.addWord();
+	all_words->addWord();
 }
 
 void Password::guess(int try_password, int num_matches)
