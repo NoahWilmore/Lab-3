@@ -32,17 +32,17 @@ void Password::guess(int try_password, int num_matches)
 
 int Password::getNumberOfPasswordsLeft()
 {
-	//write code
+	//iterate through the list and count the number of remaining passwords
 }
 
 void Password::displayViableWords()
 {
-	//write code
+	//iterate through the list and display the remaining viable words
 }
 
 String* Password::getOriginalWord(int index)
 {
-	//write code
+	//take the one-based index and turn it into a zero-based index
 }
 
 int Password::bestGuess()
