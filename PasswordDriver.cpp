@@ -1,8 +1,7 @@
 #include "Password.h"
-using namespace CSC2110::Password;
-
 #include <iostream>
 using namespace std;
+using namespace CSC2110;
 
 void addWords(Password* fh)
 {

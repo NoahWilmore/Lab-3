@@ -1,9 +1,7 @@
 #include "Password.h"
-using CSC2110::ListArrayIterator;
-
 #include <iostream>
 using namespace std;
-using namespace CSC2110::Password;
+using namespace CSC2110;
 
 Password::Password()
 {
@@ -20,7 +18,7 @@ Password::~Password()
 
 void Password::addWord(String* word)
 {
-	
+	while(len < 10 || )
 }
 
 void Password::guess(int try_password, int num_matches)
