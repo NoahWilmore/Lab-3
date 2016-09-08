@@ -8,6 +8,9 @@ using namespace CSC2110::Password;
 Password::Password()
 {
 	all_words = new ListArray<String>();
+	viable_words = new ListArray<String>();
+	len = 0;
+	
 }
 
 Password::~Password()
