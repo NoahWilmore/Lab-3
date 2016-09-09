@@ -19,15 +19,16 @@ Password::~Password()
 
 int Password::getNumMatches(String* curr_word, String* word_guess)
 {
-	int counter=0;
+	int counter = 0;
 	
-	for (int i=0; i<curr_word->sz; i++)
+	for (int i = 0; i < curr_word->sz; i++)
 	{
-		if (curr_word->charAt(i)==word_guess->charAt(i))
+		if (curr_word->charAt(i) == word_guess->charAt(i))
 		{
 			counter++;
 		}
 	}
+	return counter;
 }
 
 void Password::addWord(String* word)
@@ -61,22 +62,25 @@ int Password::getNumberOfPasswordsLeft()
 	ListArrayIterator<String>* iter = [ListArray]->iterator();
 	while(iter->hasNext())
 	{
-<<<<<<< HEAD
-	iter->Next()->[displayString];
-=======
+		iter->Next()->[displayString];
 		iter->Next()->[viable_words];
->>>>>>> de9628fe3449de41b4c786c9717c5a5479676f6d
 	}
+	
+	return iter;
 }
 
 void Password::displayViableWords()
 {
 	//iterate through the list and display the remaining viable words
+	viable_words->displayString();
 }
 
 String* Password::getOriginalWord(int index)
 {
 	//take the one-based index and turn it into a zero-based index
+	String* original = index->get(viable_words);
+	
+	return original;
 }
 
 int Password::bestGuess()
