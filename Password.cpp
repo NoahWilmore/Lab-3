@@ -19,7 +19,15 @@ Password::~Password()
 
 int Password::getNumMatches(String* curr_word, String* word_guess)
 {
-	//write code
+	int counter=0;
+	
+	for (int i=0; i<curr_word->sz; i++)
+	{
+		if (curr_word->charAt(i)==word_guess->charAt(i))
+		{
+			counter++;
+		}
+	}
 }
 
 void Password::addWord(String* word)
@@ -34,6 +42,17 @@ void Password::guess(int try_password, int num_matches)
 	for each word in viable_words, count the number of characters in common with guessed word
 	if the number of matches that we just counted equals the number of passes that was just passed to us, we're done
 	*/
+	ListArrayIterator<String>* iter= vialble_words->iterator;
+	
+	iter->next();
+	
+	while(iter->hasNext())
+	{
+		if(getNumMatches(viable_words->get (try_password), curr_word != num_matches))
+		{
+			
+		}
+	}
 }
 
 int Password::getNumberOfPasswordsLeft()
@@ -42,7 +61,7 @@ int Password::getNumberOfPasswordsLeft()
 	ListArrayIterator<String>* iter = [ListArray]->iterator();
 	while (iter->hasNext())
 	{
-	iter->Next()->[viable_words];
+	iter->Next()->[displayString];
 	}
 }
 
