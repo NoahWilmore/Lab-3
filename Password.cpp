@@ -1,5 +1,6 @@
 #include "Password.h"
 #include <iostream>
+#include "ListArrayIterator.h"
 using namespace std;
 using namespace CSC2110;
 
@@ -33,6 +34,9 @@ void Password::guess(int try_password, int num_matches)
 int Password::getNumberOfPasswordsLeft()
 {
 	//iterate through the list and count the number of remaining passwords
+	ListArrayIterator<String>* iter = [ListArray]->iterator();
+	iter->hasNext()
+	iter->Next()->[function to ]
 }
 
 void Password::displayViableWords()
