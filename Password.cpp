@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 using namespace CSC2110;
-//end my life
+
 Password::Password()
 {
 	all_words = new ListArray<String>();
