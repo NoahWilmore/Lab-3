@@ -1,3 +1,4 @@
+#include "ListArrayIterator.h"
 #include "Password.h"
 #include <iostream>
 #include "ListArrayIterator.h"
@@ -15,6 +16,11 @@ Password::~Password()
 {
 	delete all_words;
 	delete viable_words;
+}
+
+int Password::getNumMatches(String* curr_word, String* word_guess)
+{
+	//write code
 }
 
 void Password::addWord(String* word)
