@@ -40,9 +40,9 @@ int Password::getNumberOfPasswordsLeft()
 {
 	//iterate through the list and count the number of remaining passwords
 	ListArrayIterator<String>* iter = [ListArray]->iterator();
-	while (iter->hasNext())
+	while(iter->hasNext())
 	{
-	iter->Next()->[viable_words];
+		iter->Next()->[viable_words];
 	}
 }
 
