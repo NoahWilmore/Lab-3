@@ -17,6 +17,11 @@ Password::~Password()
 	delete viable_words;
 }
 
+int Password::getNumMatches(String* curr_word, String* word_guess)
+{
+	//write code
+}
+
 void Password::addWord(String* word)
 {
 	all_words->addWord();
